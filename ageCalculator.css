@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+body{
+    background-color: black;
+}
+.container{
+  color:#fff;
+  width:100%;
+  min-height:100vh;
+  padding:10px;
+  background:linear-gradient(135deg,black,white);
+  display:flex;
+  justify-content:center;
+  }
+.input-value{
+  display:flex;
+  align-items:center;
+  padding:35px;
+  margin:40px 0;
+  border-radius:10px;
+  background:rgba(255,255,255,0.3);
+}
+.input-value input{
+  flex:1;
+  padding:10px 20px;
+  border:0;
+  outline:0;
+  font-size:18px;
+  border-radius:5px;
+  margin-right:20px;
+  position:relative;
+}
+.input-value button{
+  color:#333333;
+  cursor:pointer;
+  font-weight:500;
+  border-radius:5px;
+  border:0;
+  outline:0;
+  padding:10px 20px;
+  background-color: rgb(95, 197, 197);
+  }
+  .input-value input::-webkit-calender-picker-indicator{
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:auto;
+    height:auto;
+    position:absolute;
+    cursor:pointer;
+    background-position:calc(100% - 10px);
+    background-size:30px;
+  }
+  #result{
+    font-size:30px; 
+  }
+  #result span{
+    color:yellow;
+  }
